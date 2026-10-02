@@ -5,7 +5,13 @@
     --card-bg: #f8fafc;
     --border-color: #cbd5e1;
 }
-
+[data-theme="dark"] {
+    --bg-primary: #0f172a;
+    --text-primary: #f8fafc;
+    --accent: #38bdf8;
+    --card-bg: #1e293b;
+    --border-color: #475569;
+}
 *,
 *::before,
 *::after {
@@ -32,4 +38,9 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 1.5rem;
+}
+#theme-toggle {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
