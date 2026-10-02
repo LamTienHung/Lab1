@@ -14,8 +14,13 @@
     </a>
 
     <header role="banner">
-    <h1>Lam Tien Hung, Information Systems Student</h1>
-    <button id="theme-toggle" type="button">Toggle Theme</button>
+    <h1>Lam Tien Hung</h1>
+
+    <p>Information Systems Student</p>
+
+    <button id="theme-toggle" type="button">
+        Toggle Theme
+    </button>
 </header>
 
     <nav role="navigation" aria-label="Primary">
@@ -31,7 +36,33 @@
     </nav>
 
     <main id="main-content" role="main">
+        <section id="hero">
+    <picture>
+        <source srcset="assets/avatar.webp" type="image/webp">
+        <img
+            src="assets/avatar.webp"
+            alt="Portfolio avatar"
+            width="200"
+            height="200">
+    </picture>
 
+    <h2>Hello, I'm Lam Tien Hung</h2>
+
+    <p>
+        I am an Information Systems student interested in
+        web development and modern technologies.
+    </p>
+</section>
+    <section id="skills">
+    <h2>Skills</h2>
+
+    <ul class="skills-grid">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+    </ul>
+</section>
         <section id="projects">
     <h2>Projects</h2>
 
@@ -54,7 +85,22 @@
 
     </section>
 </section>
+<section id="contact">
+    <h2>Contact</h2>
 
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
     </main>
     <script src="script.js"></script>
 </body>

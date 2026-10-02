@@ -44,3 +44,44 @@ body {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+#skills {
+    padding: 2rem 1.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-grid li {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+#contact {
+    padding: 1.5rem;
+}
+
+#contact form {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 500px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font: inherit;
+}
+
+#contact textarea {
+    resize: vertical;
+}
