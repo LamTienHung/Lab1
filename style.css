@@ -109,3 +109,44 @@ body {
         background-position: -200% 0;
     }
 }
+
+.metadata {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    padding: 0.4rem 0.7rem;
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.data-grid li {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.empty-state,
+.error-state {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.error-state button {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+}
