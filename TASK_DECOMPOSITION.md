@@ -57,3 +57,46 @@ Create a persistent light/dark theme switcher.
 ### Verification
 - Toggle the theme.
 - Reload the page and verify the theme persists.
+
+## T-03: Portfolio Assembly
+
+### Objective
+Assemble the portfolio page using reusable and accessible components.
+
+### Components
+- Hero
+- Theme Switcher
+- Skills Matrix
+- Project Cards
+- Contact Form
+
+### Requirements
+- Use semantic HTML elements.
+- Use responsive WebP images with the picture element.
+- Use native HTML form validation.
+- Keep the page responsive.
+- Maintain keyboard accessibility.
+
+### Verification
+- Check all five components.
+- Test the page on mobile and desktop.
+- Test required form fields and email validation.
+- Verify there are no console errors.
+
+## Exercise 4 - Resilient Component Architecture
+
+### 4-State Component Contract
+
+| State | Description | UI |
+|---|---|---|
+| Loading | Data is being loaded | CSS shimmer skeleton |
+| Live | Data loaded successfully | Metadata badges and grid list |
+| Empty | Data loaded but no items exist | Empty state message |
+| Error | Data loading failed | Error message and retry button |
+
+### State Flow
+
+Loading -> Live
+Loading -> Empty
+Loading -> Error
+Error -> Loading (Retry)
