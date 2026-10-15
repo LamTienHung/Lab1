@@ -100,3 +100,25 @@ Loading -> Live
 Loading -> Empty
 Loading -> Error
 Error -> Loading (Retry)
+# Homework 1: Production Portfolio
+
+## M1: Accessibility Audit
+- Verify semantic HTML landmarks.
+- Check WCAG 2.2 AA contrast ratio (>= 4.5:1).
+- Fix accessibility issues.
+
+## M2: Keyboard Navigation
+- Test Tab and Shift+Tab navigation.
+- Prevent keyboard focus traps.
+- Ensure visible focus indicators.
+
+## M3: Security
+- Remove inline event handlers.
+- Implement Content Security Policy (CSP).
+- Prevent unsafe innerHTML usage.
+
+## M4: Performance
+- Optimize images and assets.
+- Run Lighthouse audits.
+- Fix performance issues.
+- Target Lighthouse score: 100.
