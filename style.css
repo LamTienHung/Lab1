@@ -163,3 +163,8 @@ body {
 a {
   color: var(--link-color);
 }
+/* M2: Keyboard Navigation */
+:focus-visible {
+    outline: 3px solid #38bdf8;
+    outline-offset: 3px;
+}
