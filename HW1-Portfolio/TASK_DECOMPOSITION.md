@@ -122,3 +122,11 @@ Error -> Loading (Retry)
 - Run Lighthouse audits.
 - Fix performance issues.
 - Target Lighthouse score: 100.
+
+### M4: Performance - Completed
+
+- [x] Review images and assets.
+- [x] Run Lighthouse performance audit.
+- [x] Achieve Lighthouse Performance score of 100.
+- [x] Verify FCP: 0.9s.
+- [x] Verify LCP: 0.9s.
